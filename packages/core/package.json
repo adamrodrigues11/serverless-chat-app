@@ -1,0 +1,17 @@
+{
+  "name": "@day12-app/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "sst": "^2.2.6",
+    "vitest": "^0.29.7"
+  },
+  "dependencies": {
+    "pg": "^8.10.0"
+  }
+}
