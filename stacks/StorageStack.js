@@ -3,7 +3,7 @@ import { Bucket } from 'sst/constructs';
 export function Storage({ stack }) {
   // Create a bucket
   const bucket = new Bucket(stack, 'Uploads', {
-    bucketName: 'day12-app-uploads',
+    bucketName: 'day12-app-media-bucket',
     cors: [
         {
           maxAge: "1 day",
